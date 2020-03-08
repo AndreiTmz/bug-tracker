@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+:root {
+  --mainPink: #ef7998;
+  --mainWhite: #fff;
+  --mainBlack: #000;
+}
+
+body {
+  font-family: "Kaushan Script", cursive;
+}
+
+/* global style */
+
+ul {
+  list-style-type: none;
+}
+
+.font-icon {
+  cursor: pointer;
+}
+
+.btn-pink {
+  color: var(--mainPink) !important;
+  border-color: var(--mainPink) !important;
+}
+
+/* HEADER */
+
+.banner {
+  color: var(--mainWhite);
+  margin-top: -4rem;
+}
+
+.banner-title {
+  color: var(--mainPink);
+  font-size: 4rem;
+}
+
+.banner-link {
+  font-size: 1.5rem;
+  color: var(--mainBlack);
+  border: 0.2rem solid var(--mainBlack);
+}
+
+.banner-link:hover {
+  background-color: var(--mainBlack);
+  color: var(--mainPink);
+}
+
+.add-icon {
+  color: blue !important;
+}
